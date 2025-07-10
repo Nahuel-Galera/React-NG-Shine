@@ -6,5 +6,5 @@ import { HashRouter } from 'react-router-dom'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),ghPages()],
-  base:'/React-NG-Shine/'
+  base:'/'
 })
