@@ -1,0 +1,51 @@
+.card{
+    background-color: rgb(224, 224, 224);
+    color: black;
+    margin:20px;
+    min-width:250px;
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0 0 40px 0 #0007;
+}
+
+h3{
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+
+.img-card{
+    max-width: 45%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 3%;
+    box-shadow: 0 0 40px 0 #0007;
+}
+.button-info{
+    margin: auto;
+    margin-bottom: 5%;
+    width: 25%;
+    padding: 5px 10px;
+    background-color:rgb(69, 17, 132) ;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.title-card{
+    margin: 10px 20px;
+}
+.p-card{
+    margin: 10px 20px;
+
+}
+.price{ 
+    margin: 10px 20px;
+    color: blueviolet;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    text-shadow: 0 0 5px blueviolet;
+}

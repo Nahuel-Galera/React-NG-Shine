@@ -1,0 +1,25 @@
+footer{
+    height: 7vh;
+    background-color: rgb(205, 152, 251);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.footer-p{
+    margin-bottom: 0 ;
+}
+
+.redes,.number{
+    display: flex;
+}
+.number{
+    margin-left: 20px;
+}
+
+i{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 13px;
+}

@@ -1,0 +1,30 @@
+header{
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(../assets/img/f1ccfb39-ce02-4091-ab51-df731fe03ecf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.conteiner-head{
+    margin: auto;
+    text-align: center;
+    font-size: 37px;
+}
+.img-header{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+.header-p{
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.header-over{
+    background-color:rgba(0, 0, 0, 0.598) ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}

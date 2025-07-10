@@ -1,0 +1,62 @@
+.div-conteiner-turnos{
+    height:100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.div-conteiner{
+    margin: auto;
+    height: auto;
+    width: 650px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(205, 152, 251);
+    }
+
+.input-conteiner{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.input-main{
+    all: unset;
+    margin-left: 15px;
+    width: 80%;
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-left: 3px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+#servicio{
+    color: rgba(0, 0, 0, 0.785)
+}
+
+.input-main::placeholder{
+    color: rgba(174, 174, 174, 0.785)
+}
+
+.p-title{
+    margin-left: 15px;
+    color: black;
+    margin-bottom: 5px;
+}
+.button-reset,.button-enviar{
+    all: unset;
+    background-color: blueviolet;
+    width: 20%;
+    padding: 7px;
+    margin: 15px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button-reset{
+    background-color: grey;
+}
