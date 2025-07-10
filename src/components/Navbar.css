@@ -43,4 +43,5 @@ ul{
     background-color: rgba(137, 43, 226, 0.6);
     border-radius: 17px;
     color: white;
+    cursor: pointer;
 }

@@ -14,10 +14,8 @@ function Navbar() {
         <img class="icon-img" onClick={()=>navigate("/")} src={navPick}alt="" srcset=""/>
         <ul>
             <a class="nav__items" onClick={()=>navigate("/")} >Home</a>
-            <a class="nav__items">Productos</a>
             <a class="nav__items" onClick={()=>navigate("/cliente")} >Clientes</a>
             <a class="nav__items" onClick={()=>navigate("/turnos")} >Turnos</a>
-            <a class="nav__items">Registrate</a>
         </ul>
     </nav>)
 }
