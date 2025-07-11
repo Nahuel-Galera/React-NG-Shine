@@ -13,7 +13,7 @@ import ServiceDetail from './pages/ServicioDetail.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path:'/React-NG-Shine/',
     element:<App/>,
     children:[
       {
@@ -32,8 +32,6 @@ const router = createBrowserRouter([
         path:"/turnos",
         element:<Turnos/>
       }
-
-
     ]
   }
 ])
